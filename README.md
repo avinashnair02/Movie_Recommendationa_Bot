@@ -25,25 +25,7 @@ To run this program locally, follow these steps:
 6. You will also need to export the Flask environment with `export FLASK_ENV=development`
 7. Lastly, execute `flask run` and your program should be running at `http://127.0.0.1:5000/`
 
-## ▲ Deploying on Vercel
-To deploy this to vercel, all you gotta do is run `vercel --prod` in your terminal and follow through with the default setup criteria, as shown below:
-```
-? Set up and deploy “~/Desktop/username/moviebot”? [Y/n] y
-? Which scope do you want to deploy to? vercel-username
-? Link to existing project? [y/N] n
-? What’s your project’s name? moviebot
-? In which directory is your code located? ./
-> Upload [====================] 98% 0.0sNo framework detected. Default Project Settings:
-- Build Command: `npm run vercel-build` or `npm run build`
-- Output Directory: `public` if it exists, or `.`
-- Development Command: None
-? Want to override the settings? [y/N] n
-```
-If you run into the error `zsh: command vercel not found`, you might need to run the following:
 
-```
-export PATH="/Users/macintosh/.npm-global/bin/:$PATH"
-```
 
 
 ## 🐞 Question + Bug Fixes
